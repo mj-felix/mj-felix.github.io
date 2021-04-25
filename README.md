@@ -12,4 +12,4 @@ Website available under [mjfelix.dev](https://mjfelix.dev)
 - Font Awesome
 - Google Fonts
 
-Website deployed on GitHub with a custom domain [mjfelix.dev](https://mjfelix.dev) redirected.
+Website deployed on GitHub Pages with a custom domain [mjfelix.dev](https://mjfelix.dev) redirected.
