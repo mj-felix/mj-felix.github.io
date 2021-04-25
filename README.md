@@ -1,5 +1,15 @@
-# mj-felix.github.io
+# MJ Felix.dev
+
+## Description
+
+Website contains my technical portfolio.
 
 Website available under [mjfelix.dev](https://mjfelix.dev)
 
-Website contains my technical portfolio.
+## Technologies/Components
+
+- Bulma
+- Font Awesome
+- Google Fonts
+
+Website deployed on GitHub Pages with a custom domain [mjfelix.dev](https://mjfelix.dev) redirected.
