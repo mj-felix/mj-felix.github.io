@@ -6,12 +6,251 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mjfelix.dev</title>
+
+    <!-- Bulma -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/804dfc7259.js" crossorigin="anonymous"></script>
+    <!-- app.css -->
+    <link rel="stylesheet" href="css/app.css">
+    <!--  Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 
-<body>
-    <script>
-        window.location.href = "https://www.linkedin.com/in/mjfelix/";
-    </script>
+<body id="home">
+    <header class="container">
+        <nav class="navbar is-fixed-top container" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="https://mjfelix.dev">
+                    <figure class="image is-96x96 is-square is-hidden-touch">
+                        <img src="img/avatar.jpg" alt="MJ Felix" class="">
+                    </figure>
+                    <figure class="image is-64x64 is-square is-hidden-desktop">
+                        <img src="img/avatar.jpg" alt="MJ Felix" class="">
+                    </figure>
+                </a>
+
+                <a class="navbar-item is-hidden-desktop is-left-margin-auto" href="https://github.com/mj-felix"
+                    target="_blank">
+                    <i class="fab fa-github-square fa-lg"></i>
+                </a>
+                <a class="navbar-item is-hidden-desktop" href="https://www.linkedin.com/in/mjfelix/" target="_blank">
+                    <i class="fab fa-linkedin fa-lg"></i>
+                </a>
+
+
+                <a role="button" class="navbar-burger" data-target="navbarLinks" aria-label="menu"
+                    aria-expanded="false">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+
+            </div>
+
+            <div id="navbarLinks" class="navbar-menu">
+                <div class="navbar-start">
+                    <a rel="#home" class="navbar-item is-size-4">
+                        Home
+                    </a>
+
+                    <a rel="#portfolio" class="navbar-item is-size-4">
+                        Portfolio
+                    </a>
+
+                    <a rel="#contact" class="navbar-item is-size-4">
+                        Contact
+                    </a>
+                </div>
+
+                <div class="navbar-end is-hidden-touch">
+                    <a class="navbar-item" href="https://github.com/mj-felix" target="_blank">
+                        <i class="fab fa-github-square fa-2x"></i>
+                    </a>
+                    <a class="navbar-item" href="https://www.linkedin.com/in/mjfelix/" target="_blank">
+                        <i class="fab fa-linkedin fa-2x"></i>
+                    </a>
+                </div>
+            </div>
+
+        </nav>
+
+
+
+    </header>
+
+
+    <main class="container">
+
+        <section class="section" id="me">
+            <h2 class="title">I go by MJ Felix ...</h2>
+            <p class="subtitle">
+                becasue my Polish name is unpronounceable.
+            </p>
+            <h2 class="title">I used to be a Technical BA ...</h2>
+            <p class="subtitle">
+                but then decided to shift my career.
+            </p>
+            <h2 class="title has-text-link">I've become a Dev.</h2>
+
+        </section>
+
+        <div class="anchor">
+            <span id="portfolio"></span>
+        </div>
+
+        <section class="section">
+            <h1 class="title px-5">Portfolio</h1>
+            <div class="columns is-desktop">
+                <div class="column">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-2by1">
+                                <img src="img/trackmywarranties.jpg" alt="Track My Warranties">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-4">
+                                        <a href="https://trackmywarranties.mjfelix.dev" target="_blank">
+                                            Track My Warranties</a>
+                                    </p>
+                                    <p class="subtitle is-6">Track warranties on purchased items.</p>
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                <p>
+                                    Developed after completing <a href="https://www.youtube.com/c/ColtSteeleCode"
+                                        target="_blank">Colt Steele</a>'s <a
+                                        href="https://www.udemy.com/course/the-web-developer-bootcamp/"
+                                        target="_blank">The
+                                        Web Developer Bootcamp 2021</a>.
+                                </p>
+                                <p>
+                                    Live app:
+                                    <a href="https://trackmywarranties.mjfelix.dev" target="_blank">
+                                        trackmywarranties.mjfelix.dev</a>
+                                </p>
+                                <p>
+                                    GitHub repo:
+                                    <a href="https://github.com/mj-felix/track-my-warranties" target="_blank">
+                                        track-my-warranties</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-hidden-touch">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-2by1">
+                                <img src="img/comingsoon.jpg" alt="Coming soon">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-4">
+                                        <a href="#">
+                                            Coming soon ...</a>
+                                    </p>
+                                    <p class="subtitle is-6">Very soon.</p>
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                <p>
+                                    Already cooking my next project. Watch this space.
+                                </p>
+                                <p>
+                                    Live app:
+                                </p>
+                                <p>
+                                    GitHub repo:
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="column is-hidden-touch">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-2by1">
+                                <img src="img/comingnext.jpg" alt="Coming next">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-4">
+                                        <a href="#">
+                                            Coming next ...</a>
+                                    </p>
+                                    <p class="subtitle is-6">Straight after.</p>
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                <p>
+                                    Thinking about my next next project. Stay tuned.
+                                </p>
+                                <p>
+                                    Live app:
+                                </p>
+                                <p>
+                                    GitHub repo:
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="anchor">
+            <span id="contact"></span>
+        </div>
+
+        <section class="section pt-5">
+            <h1 class="title">Contact</h1>
+            <ul class="px-5 is-size-4">
+                <li>
+                    <a href="mailto:mjfelixdev@gmail.com">
+                        <i class="fas fa-envelope-square"></i>
+                        mjfelixdev@gmail.com</a>
+                </li>
+                <li>
+                    <a href="https://mjfelix.dev" target="_blank">
+                        <i class="fab fa-dev"></i>
+                        mjfelix.dev</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/mjfelix/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                        mjfelix</a>
+                </li>
+                <li>
+                    <a href="https://github.com/mj-felix" target="_blank">
+                        <i class="fab fa-github-square"></i>
+                        mj-felix</a>
+                </li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            Copyright &copy; 2021 MJ Felix. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="js/afterLoad.js"></script>
 </body>
 
 </html>

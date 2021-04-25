@@ -1,0 +1,102 @@
+body {
+    font-family: 'Exo 2', sans-serif;
+}
+
+.navbar-brand img {
+    max-height: none;
+    border-radius: 50%;
+}
+
+.anchor {
+    position: relative;
+}
+
+.anchor > span {
+    position: absolute;
+}   
+
+#me {
+    background-color: hsl(0, 0%, 98%);
+    border-radius: 5px;
+    padding: 1.8rem;
+    margin-top: 0.8rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+
+
+@media (min-width: 1024px) {
+    .navbar {
+        padding-top: 1em;
+    }
+
+    .navbar-menu {
+        height: 60px;
+        align-self: center;
+        font-weight: bold;
+    }
+
+    .navbar-item {
+        padding: 10px;
+    }
+
+    .footer {
+        padding: 3em 1.5em;
+    }
+
+    main {
+        padding-top: 9em;
+    }
+
+    .anchor > span {
+        top: -8em;
+    }
+
+    i.fab, i.fas {
+        margin-right: 3px;
+    }
+
+}
+
+@media (max-width: 1023px) {
+    .navbar {
+        padding-top: 0.5em;
+    }
+    
+    .navbar-burger:hover {
+        background-color: white;
+    }
+
+    .navbar-burger {
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 0;
+    }
+
+    .is-left-margin-auto {
+        margin-left: auto;
+    }
+
+    .navbar-start .navbar-item {
+        text-align: center;
+    }
+
+    .footer {
+        padding: 1.5em;
+    }
+
+    main {
+        padding-top: 5em;
+    }
+
+    .anchor > span {
+        top: -5em;
+    }
+
+    .section {
+        padding: 2rem 1.5rem;
+    }
+
+}
