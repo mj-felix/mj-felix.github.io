@@ -19,8 +19,6 @@ body {
     background-color: hsl(0, 0%, 98%);
     border-radius: 5px;
     margin-top: 0.8rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
 }
 
 
@@ -50,13 +48,17 @@ body {
     }
 
     .anchor > span {
-        top: -8em;
+        top: -7em;
     }
 
     i.fab, i.fas {
         margin-right: 3px;
     }
 
+    #me {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
 }
 
 @media (max-width: 1023px) {
@@ -96,6 +98,11 @@ body {
 
     .section {
         padding: 2rem 1.5rem;
+    }
+
+    #me {
+        margin-left: 0;
+        margin-right: 0;
     }
 
 }
