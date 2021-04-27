@@ -24,7 +24,7 @@ const app = {
                 });
             }
         },
-        hideBurgerOnClick: function (burger) {
+        scrollToRel: function (burger) {
             document.querySelector('#navbarLinks').classList.toggle('is-active');
             document.querySelector('.navbar-burger').classList.toggle('is-active');
             document.querySelector(this.rel).scrollIntoView({ behavior: "smooth", block: "start" });

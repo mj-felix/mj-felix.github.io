@@ -1,15 +1,15 @@
 // bulma.io - burger menu
 document.addEventListener('DOMContentLoaded', app.view.addBurgerToggle);
 
-//hiding navbar menu on click in mobile view
+//hiding navbar menu on click in mobile view and scrolling to a.rel
 const aNavbarLinks = document.querySelectorAll('#navbarLinks a')
 for (let aNavbarLink of aNavbarLinks) {
-    aNavbarLink.addEventListener('click', app.view.hideBurgerOnClick);
+    aNavbarLink.addEventListener('click', app.view.scrollToRel);
 }
 
-const aGoHomeLinks = document.querySelectorAll('.goHome')
-for (let aGoHomeLink of aGoHomeLinks) {
-    aGoHomeLink.addEventListener('click', () => {
-        document.querySelector(aGoHomeLink.rel).scrollIntoView({ behavior: "smooth", block: "start" });
+const aScrollLinks = document.querySelectorAll('a.scroll')
+for (let aScrollLink of aScrollLinks) {
+    aScrollLink.addEventListener('click', () => {
+        document.querySelector(aScrollLink.rel).scrollIntoView({ behavior: "smooth", block: "start" });
     });
 }

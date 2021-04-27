@@ -19,8 +19,22 @@ body {
     background-color: hsl(0, 0%, 98%);
     border-radius: 5px;
     margin-top: 0.8rem;
+    margin-bottom: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
+ul.is-square-type {
+    list-style-type: square;
+}
+
+.is-line-through  {
+    text-decoration: line-through;
+}
+
+.card:hover {
+    box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 20%);
+}
 
 
 
@@ -48,7 +62,7 @@ body {
     }
 
     .anchor > span {
-        top: -7em;
+        top: -9em;
     }
 
     i.fab, i.fas {
@@ -62,6 +76,11 @@ body {
 
     .card {
         height: 100%;
+    }
+
+    .section {
+        padding-top: 1em;
+        padding-bottom: 1em;
     }
 }
 
@@ -97,7 +116,7 @@ body {
     }
 
     .anchor > span {
-        top: -5em;
+        top: -5.5em;
     }
 
     .section {
@@ -107,6 +126,16 @@ body {
     #me {
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .section {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+    }
+
+    .resume .p-5 {
+        margin-left: 0.7rem;
+        margin-right: 0.7rem;
     }
 
 }
