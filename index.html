@@ -7,15 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mjfelix.dev</title>
 
+    <!-- slider css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
     <!-- Bulma -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/804dfc7259.js" crossorigin="anonymous"></script>
-    <!-- app.css -->
-    <link rel="stylesheet" href="css/app.css">
-    <!--  Google fonts -->
+    <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap" rel="stylesheet">
+    <!-- app css -->
+    <link rel="stylesheet" href="css/app.css">
 
 </head>
 
@@ -95,17 +97,73 @@
 
 
     <main class="container">
-
         <section class="section" id="me">
-            <h2 class="title">I go by MJ Felix ...</h2>
-            <p class="subtitle">
-                coz my Polish name is unpronounceable.
-            </p>
-            <h2 class="title">I used to be a Tech&nbsp;BA&nbsp;...</h2>
-            <p class="subtitle">
-                but then decided to shift my career.
-            </p>
-            <h2 class="title has-text-link">I've become a Dev.</h2>
+            <div class="splide">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <h2 class="title">I go by MJ Felix ...</h2>
+                            <p class="subtitle">
+                                coz my Polish name is unpronounceable.
+                            </p>
+                            <h2 class="title">I used to be a Tech&nbsp;BA&nbsp;...</h2>
+                            <p class="subtitle">
+                                but then decided to shift my career.
+                            </p>
+                            <h2 class="title has-text-link">I've become a Dev.</h2>
+                        </li>
+                        <li
+                            class="splide__slide is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
+                            <h2 class="title has-text-centered">
+                                Dream big, start small, but most of all start.
+                            </h2>
+                            <h2 class="title has-text-link is-italic has-text-centered">
+                                ~ Simon Sinek
+                            </h2>
+                        </li>
+                        <li
+                            class="splide__slide is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
+                            <h2 class="title has-text-centered">
+                                Simplicity is the ultimate sophistication.
+                            </h2>
+                            <h2 class="title has-text-link is-italic has-text-centered">
+                                ~ Leonardo Da Vinci
+                            </h2>
+                        </li>
+                        <li
+                            class="splide__slide is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
+                            <h2 class="title has-text-centered">
+                                We're here to put a dent in the universe. Otherwise, why even be here?
+                            </h2>
+                            <h2 class="title has-text-link is-italic has-text-centered">
+                                ~ Steve Jobs
+                            </h2>
+                        </li>
+                        <li
+                            class="splide__slide is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
+                            <h2 class="title has-text-centered">
+                                Success is when reality catches up to our imagination.
+                            </h2>
+                            <h2 class="title has-text-link is-italic has-text-centered">
+                                ~ Simon Sinek
+                            </h2>
+                        </li>
+                        <!-- <li
+                            class="splide__slide is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
+                            <h2 class="title has-text-centered">
+                                Any product that needs a manual to work is broken.
+                            </h2>
+                            <h2 class="title has-text-link is-italic has-text-centered">
+                                ~ Elon Musk
+                            </h2>
+                        </li> -->
+                    </ul>
+                </div>
+
+            </div>
+
+
+
 
         </section>
 
@@ -561,7 +619,11 @@
         </div>
     </footer>
 
+    <!-- Slider js -->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+    <!-- app js -->
     <script src="js/app.js"></script>
+    <!-- after load js -->
     <script src="js/afterLoad.js"></script>
 </body>
 

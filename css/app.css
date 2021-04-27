@@ -36,6 +36,16 @@ ul.is-square-type {
     box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 20%);
 }
 
+.splide__pagination__page {
+    position: relative;
+    top: 28px;
+}
+
+.splide__pagination__page.is-active {
+    background-color: black;
+    transform:scale(1.2);
+}
+
 
 
 @media (min-width: 1024px) {

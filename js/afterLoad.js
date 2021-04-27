@@ -13,3 +13,11 @@ for (let aScrollLink of aScrollLinks) {
         document.querySelector(aScrollLink.rel).scrollIntoView({ behavior: "smooth", block: "start" });
     });
 }
+
+// initiate slider
+new Splide('.splide', {
+    type: 'loop',
+    autoplay: true,
+    interval: 4000,
+    arrows: false,
+}).mount();
