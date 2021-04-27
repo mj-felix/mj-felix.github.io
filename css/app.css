@@ -130,17 +130,12 @@ ul.is-square-type {
     }
 
     .section {
-        padding: 2rem 1.5rem;
+        padding: 0.5rem 1.5rem;
     }
 
     #me {
         margin-left: 0;
         margin-right: 0;
-    }
-
-    .section {
-        padding-top: 0.5em;
-        padding-bottom: 0.5em;
     }
 
     .resume .p-5 {
