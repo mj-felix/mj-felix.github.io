@@ -138,4 +138,8 @@ ul.is-square-type {
         margin-right: 0;
     }
 
+    body {
+        overflow-x: hidden;
+    }
+
 }
