@@ -11,5 +11,6 @@ Website available under [mjfelix.dev](https://mjfelix.dev)
 - Bulma
 - Font Awesome
 - Google Fonts
+- SplideJS
 
 Website deployed on GitHub Pages with a custom domain [mjfelix.dev](https://mjfelix.dev) redirected.
