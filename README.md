@@ -2,7 +2,7 @@
 
 ## Description
 
-Website contains my technical portfolio.
+Website contains my technical portfolio, values, journey and resume.
 
 Website available under [mjfelix.dev](https://mjfelix.dev)
 
