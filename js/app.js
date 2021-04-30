@@ -23,7 +23,7 @@ const app = {
                 });
             }
         },
-        scrollToRel: function (burger) {
+        scrollToRel: function () {
             document.querySelector('#navbarLinks').classList.toggle('is-active');
             document.querySelector('.navbar-burger').classList.toggle('is-active');
             document.querySelector(this.rel).scrollIntoView({ behavior: "smooth", block: "start" });
