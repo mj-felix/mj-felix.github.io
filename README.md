@@ -1,10 +1,10 @@
-# MJ Felix.dev
+# Who is MJ Felix?
 
 ## Description
 
 Website contains my technical portfolio, values, journey and resume.
 
-Website available under [mjfelix.dev](https://mjfelix.dev)
+Website available under [mj-felix.github.io/](https://mj-felix.github.io/)
 
 ## Technologies/Components
 
@@ -13,4 +13,4 @@ Website available under [mjfelix.dev](https://mjfelix.dev)
 - Google Fonts
 - SplideJS
 
-Website deployed on GitHub Pages with a custom domain [mjfelix.dev](https://mjfelix.dev) redirected.
+Website deployed on GitHub Pages.
