@@ -14,3 +14,10 @@ Website available under [mj-felix.github.io](https://mj-felix.github.io)
 - SplideJS
 
 Website deployed on GitHub Pages.
+
+## Contact
+
+MJ Felix<br>
+[mj-felix.github.io](https://mj-felix.github.io)<br>
+mjfelixdev@gmail.com<br>
+[linkedin.com/in/mszonline](https://www.linkedin.com/in/mjfelix/) ![Linkedin Profile](https://i.stack.imgur.com/gVE0j.png)
