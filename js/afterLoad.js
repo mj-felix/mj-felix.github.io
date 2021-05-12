@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', app.view.addBurgerToggle);
 //hiding navbar menu on click in mobile view and scrolling to a.rel
 const aNavbarLinks = document.querySelectorAll('#navbarLinks a')
 for (let aNavbarLink of aNavbarLinks) {
-    aNavbarLink.addEventListener('click', app.view.scrollToRel);
+    if (aNavbarLink.rel) aNavbarLink.addEventListener('click', app.view.scrollToRel);
 }
 
 const aScrollLinks = document.querySelectorAll('a.scroll')
