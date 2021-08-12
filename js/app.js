@@ -24,8 +24,8 @@ const app = {
             }
         },
         scrollToRel: function () {
-            document.querySelector('#navbarLinks').classList.toggle('is-active');
-            document.querySelector('.navbar-burger').classList.toggle('is-active');
+            document.querySelector('#navbarLinks').classList.remove('is-active');
+            document.querySelector('.navbar-burger').classList.remove('is-active');
             document.querySelector(this.rel).scrollIntoView({ behavior: "smooth", block: "start" });
         }
     }
