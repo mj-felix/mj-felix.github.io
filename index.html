@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
     <!-- Bulma -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <!-- Bulma tooltip -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@creativebulma/bulma-tooltip@1.0.2/dist/bulma-tooltip.min.css">
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/804dfc7259.js" crossorigin="anonymous"></script>
     <!-- Google fonts -->
@@ -147,6 +150,7 @@
                 <span id="portfolio"></span>
             </div>
             <h1 class="title">Portfolio</h1>
+            <!-- 1st row of projects -->
             <div class="columns mb-5 is-desktop">
                 <div class="column">
                     <div class="card">
@@ -212,36 +216,137 @@
                         </div>
                     </div>
                 </div>
-                <div class="column is-hidden-touch">
+                <div class="column">
                     <div class="card">
                         <div class="card-image">
                             <figure class="image is-2by1">
-                                <img src="img/comingsoon.jpg" alt="Coming soon">
+                                <img src="img/trackmyreading.jpg" alt="Track My Reading">
                             </figure>
                         </div>
                         <div class="card-content">
                             <div class="media">
                                 <div class="media-content">
                                     <p class="title is-4">
-                                        <a href="#">
-                                            Coming soon ...</a>
+                                        <!-- <a href="https://trackmyreading.mjfelix.dev" target="_blank">-->
+                                        <a class="has-tooltip-arrow" data-tooltip="Coming really soon ...">
+                                            Track My Reading
+                                        </a>
                                     </p>
-                                    <p class="subtitle is-6">Already cooking my next project.</p>
+                                    <p class="subtitle is-6">App to record reading and see stats.</p>
                                 </div>
                             </div>
                             <div class="content">
                                 <p>
                                     Live app:
+                                    <!-- <a href="https://trackmyreading.mjfelix.dev" target="_blank">-->
+                                    <a class="has-tooltip-arrow" data-tooltip="Coming really soon ...">
+                                        trackmyreading.mjfelix.dev
+                                    </a>
                                 </p>
                                 <p>
                                     GitHub repo:
+                                    <a href="https://github.com/mj-felix/track-my-reading" target="_blank">
+                                        track-my-reading</a>
                                 </p>
                             </div>
                         </div>
                     </div>
-
+                </div>
+            </div>
+            <!-- 2nd row of projects -->
+            <div class="columns mb-5 is-desktop">
+                <div class="column">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-2by1">
+                                <img src="img/socialculinaryportal.jpg" alt="Social Culinary Portal">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-4">
+                                        <a href="https://github.com/mj-felix/engineer-of-computer-science-final-project"
+                                            target="_blank">
+                                            Social Culinary Portal
+                                        </a>
+                                    </p>
+                                    <p class="subtitle is-6">Engineer of Comp Science - Final Project</p>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <p>
+                                    GitHub repo:
+                                    <a href="https://github.com/mj-felix/engineer-of-computer-science-final-project"
+                                        target="_blank">
+                                        engineer-of-computer-science-final-project</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-2by1">
+                                <img src="img/mjfelixdev.jpg" alt="mjfelix.dev">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-4">
+                                        <a rel="#home" class="scroll">
+                                            mjfelix.dev</a>
+                                    </p>
+                                    <p class="subtitle is-6">Honestly about MJ Felix ...</p>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <!-- <p>
+                                    Live website:
+                                    <a rel="#home" class="scroll">
+                                        mjfelix.dev</a>
+                                </p> -->
+                                <p>
+                                    GitHub repo:
+                                    <a href="https://github.com/mj-felix/mj-felix.github.io" target="_blank">
+                                        mj-felix.github.io</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <!-- <div class="column is-hidden-touch">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <figure class="image is-2by1">
+                                            <img src="img/comingsoon.jpg" alt="Coming soon">
+                                        </figure>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="media">
+                                            <div class="media-content">
+                                                <p class="title is-4">
+                                                    <a href="#">
+                                                        Coming soon ...</a>
+                                                </p>
+                                                <p class="subtitle is-6">Already cooking my next project.</p>
+                                            </div>
+                                        </div>
+                                        <div class="content">
+                                            <p>
+                                                Live app:
+                                            </p>
+                                            <p>
+                                                GitHub repo:
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+            
+                            </div> -->
+                <div class="column is-hidden-touch">
                     <div class="card">
                         <div class="card-image">
                             <figure class="image is-2by1">
@@ -255,21 +360,22 @@
                                         <a href="#">
                                             Coming next ...</a>
                                     </p>
-                                    <p class="subtitle is-6">Pondering on my next next project.</p>
+                                    <p class="subtitle is-6">Already designing my next app.</p>
                                 </div>
                             </div>
 
                             <div class="content">
-                                <p>
+                                Watch this space ...
+                                <!-- <p>
                                     Live app:
                                 </p>
                                 <p>
                                     GitHub repo:
-                                </p>
+                                </p> -->
                             </div>
                         </div>
                     </div>
-                </div> -->
+                </div>
             </div>
         </section>
         <!-- portfolio end -->
