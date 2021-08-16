@@ -1,5 +1,7 @@
 # Honestly about MJ Felix ...
 
+![Honestly about MJ Felix ...](https://mjfelix.dev/img/screenshot.png)
+
 ## Description
 
 Website contains my technical portfolio, values, journey and resume.
