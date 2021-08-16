@@ -27,6 +27,9 @@ const app = {
             document.querySelector('#navbarLinks').classList.remove('is-active');
             document.querySelector('.navbar-burger').classList.remove('is-active');
             document.querySelector(this.rel).scrollIntoView({ behavior: "smooth", block: "start" });
+        },
+        toggleModalVisibility: function (modal) {
+            modal.classList.toggle('is-active');
         }
     }
 }

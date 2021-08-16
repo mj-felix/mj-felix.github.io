@@ -46,6 +46,19 @@ ul.is-square-type {
     transform:scale(1.2);
 }
 
+.zoom {
+    overflow: hidden;
+}
+
+.zoom img.to-zoom {
+    transition: .3s ease-in-out;
+}
+
+.zoom img.to-zoom:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
 
 
 @media (min-width: 1024px) {
