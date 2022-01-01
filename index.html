@@ -1,345 +1,479 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns#">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <meta property="og:title" content="mjfelix.dev" />
-    <meta property="og:image" content="https://mjfelix.dev/img/screenshot.png" />
+    <meta
+      property="og:image"
+      content="https://mjfelix.dev/img/screenshot.png"
+    />
     <meta property="og:description" content="Honestly about MJ Felix ..." />
     <meta property="og:url" content="https://mjfelix.dev" />
 
     <meta name="author" content="MJ Szczesny" />
 
     <!-- favicon package -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/img/favicon/site.webmanifest">
-    <meta name="apple-mobile-web-app-title" content="mjfelix.dev">
-    <meta name="application-name" content="mjfelix.dev">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/img/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/img/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/img/favicon/site.webmanifest" />
+    <meta name="apple-mobile-web-app-title" content="mjfelix.dev" />
+    <meta name="application-name" content="mjfelix.dev" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
 
     <title>Honestly about MJ Felix ...</title>
 
     <!-- slider css -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css"
+    />
     <!-- Bulma -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css"
+    />
     <!-- Bulma tooltip -->
-    <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/@creativebulma/bulma-tooltip@1.0.2/dist/bulma-tooltip.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@creativebulma/bulma-tooltip@1.0.2/dist/bulma-tooltip.min.css"
+    />
     <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/804dfc7259.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/804dfc7259.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- Google fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- app css -->
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
 
-</head>
-
-<body id="home">
+  <body id="home">
     <!-- header start -->
     <header class="container">
-        <nav class="navbar is-fixed-top container" role="navigation" aria-label="main navigation">
-            <div class="navbar-brand">
-                <a class="navbar-item scroll" rel="#home">
-                    <figure class="image is-96x96 is-square is-hidden-touch">
-                        <img src="img/avatar.jpg" alt="MJ Felix" class="">
-                    </figure>
-                    <figure class="image is-64x64 is-square is-hidden-desktop">
-                        <img src="img/avatar.jpg" alt="MJ Felix" class="">
-                    </figure>
-                </a>
-                <a class="navbar-item is-hidden-desktop is-left-margin-auto" href="https://github.com/mj-felix"
-                    target="_blank">
-                    <i class="fab fa-github-square fa-lg"></i>
-                </a>
-                <a class="navbar-item is-hidden-desktop" href="https://www.linkedin.com/in/mjfelix" target="_blank">
-                    <i class="fab fa-linkedin fa-lg"></i>
-                </a>
-                <a role="button" class="navbar-burger" data-target="navbarLinks" aria-label="menu"
-                    aria-expanded="false">
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                </a>
-            </div>
-            <div id="navbarLinks" class="navbar-menu">
-                <div class="navbar-start">
-                    <a rel="#home" class="navbar-item is-size-4">
-                        Home
-                    </a>
-                    <a rel="#portfolio" class="navbar-item is-size-4">
-                        Portfolio
-                    </a>
-                    <a rel="#values" class="navbar-item is-size-4">
-                        Values
-                    </a>
-                    <a rel="#journey" class="navbar-item is-size-4">
-                        Journey
-                    </a>
-                    <a rel="#resume" class="navbar-item is-size-4">
-                        Resume
-                    </a>
-                    <a rel="#interests" class="navbar-item is-size-4">
-                        Interests
-                    </a>
-                    <a rel="#contact" class="navbar-item is-size-4">
-                        Contact
-                    </a>
-                </div>
-                <div class="navbar-end is-hidden-touch">
-                    <a class="navbar-item px-3" href="https://github.com/mj-felix" target="_blank">
-                        <i class="fab fa-github-square fa-2x"></i>
-                    </a>
-                    <a class="navbar-item px-3" href="https://www.linkedin.com/in/mjfelix" target="_blank">
-                        <i class="fab fa-linkedin fa-2x"></i>
-                    </a>
-                </div>
-            </div>
-        </nav>
+      <nav
+        class="navbar is-fixed-top container"
+        role="navigation"
+        aria-label="main navigation"
+      >
+        <div class="navbar-brand">
+          <a class="navbar-item scroll" rel="#home">
+            <figure class="image is-96x96 is-square is-hidden-touch">
+              <img src="img/avatar.jpg" alt="MJ Felix" class="" />
+            </figure>
+            <figure class="image is-64x64 is-square is-hidden-desktop">
+              <img src="img/avatar.jpg" alt="MJ Felix" class="" />
+            </figure>
+          </a>
+          <a
+            class="navbar-item is-hidden-desktop is-left-margin-auto"
+            href="https://github.com/mj-felix"
+            target="_blank"
+          >
+            <i class="fab fa-github-square fa-lg"></i>
+          </a>
+          <a
+            class="navbar-item is-hidden-desktop"
+            href="https://www.linkedin.com/in/mjfelix"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin fa-lg"></i>
+          </a>
+          <a
+            role="button"
+            class="navbar-burger"
+            data-target="navbarLinks"
+            aria-label="menu"
+            aria-expanded="false"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+        <div id="navbarLinks" class="navbar-menu">
+          <div class="navbar-start">
+            <a rel="#home" class="navbar-item is-size-4"> Home </a>
+            <a rel="#portfolio" class="navbar-item is-size-4"> Portfolio </a>
+            <a rel="#values" class="navbar-item is-size-4"> Values </a>
+            <a rel="#journey" class="navbar-item is-size-4"> Journey </a>
+            <a rel="#resume" class="navbar-item is-size-4"> Resume </a>
+            <a rel="#interests" class="navbar-item is-size-4"> Interests </a>
+            <a rel="#contact" class="navbar-item is-size-4"> Contact </a>
+          </div>
+          <div class="navbar-end is-hidden-touch">
+            <a
+              class="navbar-item px-3"
+              href="https://github.com/mj-felix"
+              target="_blank"
+            >
+              <i class="fab fa-github-square fa-2x"></i>
+            </a>
+            <a
+              class="navbar-item px-3"
+              href="https://www.linkedin.com/in/mjfelix"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+          </div>
+        </div>
+      </nav>
     </header>
     <!-- header end -->
     <!-- main start -->
     <main class="container">
-        <!-- quotes start -->
-        <section class="section" id="quotes">
-            <div class="splide">
-                <div class="splide__track">
-                    <ul class="splide__list">
-                        <li class="splide__slide">
-                            <h2 class="title">I go by MJ Felix ...</h2>
-                            <p class="subtitle">
-                                because my Polish name is unpronounceable.
-                            </p>
-                            <h2 class="title">I used to be a Tech&nbsp;BA&nbsp;...</h2>
-                            <p class="subtitle">
-                                but then decided to shift my career.
-                            </p>
-                            <h2 class="title has-text-link">I've become a Dev.</h2>
-                        </li>
-                        <li
-                            class="splide__slide is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
-                            <h2 class="title has-text-centered">
-                                Dream big, start small, but most of all start.
-                            </h2>
-                            <p class="title has-text-link is-italic has-text-centered">
-                                ~ Simon Sinek
-                            </p>
-                        </li>
-                        <li
-                            class="splide__slide is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
-                            <h2 class="title has-text-centered">
-                                Simplicity is the ultimate sophistication.
-                            </h2>
-                            <p class="title has-text-link is-italic has-text-centered">
-                                ~ Leonardo Da Vinci
-                            </p>
-                        </li>
-                        <li
-                            class="splide__slide is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
-                            <h2 class="title has-text-centered">
-                                We're here to put a dent in the universe. Otherwise, why even be here?
-                            </h2>
-                            <p class="title has-text-link is-italic has-text-centered">
-                                ~ Steve Jobs
-                            </p>
-                        </li>
-                        <li
-                            class="splide__slide is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
-                            <h2 class="title has-text-centered">
-                                Success is when reality catches up to our imagination.
-                            </h2>
-                            <p class="title has-text-link is-italic has-text-centered">
-                                ~ Simon Sinek
-                            </p>
-                        </li>
-                    </ul>
+      <!-- quotes start -->
+      <section class="section" id="quotes">
+        <div class="splide">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <h2 class="title">I go by MJ Felix ...</h2>
+                <p class="subtitle">
+                  because my Polish name is unpronounceable.
+                </p>
+                <h2 class="title">I used to be a Tech&nbsp;BA&nbsp;...</h2>
+                <p class="subtitle">but then decided to shift my career.</p>
+                <h2 class="title has-text-link">I've become a Dev.</h2>
+              </li>
+              <li
+                class="
+                  splide__slide
+                  is-flex
+                  is-flex-direction-column
+                  is-justify-content-center
+                  is-align-items-center
+                "
+              >
+                <h2 class="title has-text-centered">
+                  Dream big, start small, but most of all start.
+                </h2>
+                <p class="title has-text-link is-italic has-text-centered">
+                  ~ Simon Sinek
+                </p>
+              </li>
+              <li
+                class="
+                  splide__slide
+                  is-flex
+                  is-flex-direction-column
+                  is-justify-content-center
+                  is-align-items-center
+                "
+              >
+                <h2 class="title has-text-centered">
+                  Simplicity is the ultimate sophistication.
+                </h2>
+                <p class="title has-text-link is-italic has-text-centered">
+                  ~ Leonardo Da Vinci
+                </p>
+              </li>
+              <li
+                class="
+                  splide__slide
+                  is-flex
+                  is-flex-direction-column
+                  is-justify-content-center
+                  is-align-items-center
+                "
+              >
+                <h2 class="title has-text-centered">
+                  We're here to put a dent in the universe. Otherwise, why even
+                  be here?
+                </h2>
+                <p class="title has-text-link is-italic has-text-centered">
+                  ~ Steve Jobs
+                </p>
+              </li>
+              <li
+                class="
+                  splide__slide
+                  is-flex
+                  is-flex-direction-column
+                  is-justify-content-center
+                  is-align-items-center
+                "
+              >
+                <h2 class="title has-text-centered">
+                  Success is when reality catches up to our imagination.
+                </h2>
+                <p class="title has-text-link is-italic has-text-centered">
+                  ~ Simon Sinek
+                </p>
+              </li>
+              <li
+                class="
+                  splide__slide
+                  is-flex
+                  is-flex-direction-column
+                  is-justify-content-center
+                  is-align-items-center
+                "
+              >
+                <h2 class="title has-text-centered">
+                  There is a difference between knowing the path & walking the
+                  path.
+                </h2>
+                <p class="title has-text-link is-italic has-text-centered">
+                  ~ Morpheus (The Matrix movie)
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- quotes end -->
+      <!-- portfolio start -->
+      <section class="section">
+        <!-- portfolio anchor for scroll /-->
+        <div class="anchor">
+          <span id="portfolio"></span>
+        </div>
+        <h1 class="title">Portfolio</h1>
+        <!-- 1st row of projects -->
+        <div class="columns mb-3 is-desktop">
+          <div class="column">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-2by1">
+                  <img
+                    src="img/trackmywarranties.jpg"
+                    alt="Track My Warranties"
+                  />
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="title is-4">
+                      <a
+                        href="https://trackmywarranties.mjfelix.dev"
+                        target="_blank"
+                      >
+                        Track My Warranties</a
+                      >
+                    </p>
+                    <p class="subtitle is-6">
+                      Track warranties on purchased items.
+                    </p>
+                  </div>
                 </div>
+                <div class="content">
+                  <p>
+                    Live app:
+                    <a
+                      href="https://trackmywarranties.mjfelix.dev"
+                      target="_blank"
+                    >
+                      trackmywarranties.mjfelix.dev</a
+                    >
+                  </p>
+                  <p>
+                    GitHub repo:
+                    <a
+                      href="https://github.com/mj-felix/track-my-warranties"
+                      target="_blank"
+                    >
+                      track-my-warranties</a
+                    >
+                  </p>
+                </div>
+              </div>
             </div>
-        </section>
-        <!-- quotes end -->
-        <!-- portfolio start -->
-        <section class="section">
-            <!-- portfolio anchor for scroll /-->
-            <div class="anchor">
-                <span id="portfolio"></span>
+          </div>
+          <div class="column">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-2by1">
+                  <img src="img/trackmynotes.jpg" alt="Track My Notes" />
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="title is-4">
+                      <a
+                        href="https://trackmynotes.mjfelix.dev"
+                        target="_blank"
+                      >
+                        Track My Notes</a
+                      >
+                    </p>
+                    <p class="subtitle is-6">
+                      Manage notes & publish them as a blog.
+                    </p>
+                  </div>
+                </div>
+                <div class="content">
+                  <p>
+                    Live app:
+                    <a href="https://trackmynotes.mjfelix.dev" target="_blank">
+                      trackmynotes.mjfelix.dev</a
+                    >
+                  </p>
+                  <p>
+                    GitHub repo:
+                    <a
+                      href="https://github.com/mj-felix/track-my-notes"
+                      target="_blank"
+                    >
+                      track-my-notes</a
+                    >
+                  </p>
+                </div>
+              </div>
             </div>
-            <h1 class="title">Portfolio</h1>
-            <!-- 1st row of projects -->
-            <div class="columns mb-3 is-desktop">
-                <div class="column">
-                    <div class="card">
-                        <div class="card-image">
-                            <figure class="image is-2by1">
-                                <img src="img/trackmywarranties.jpg" alt="Track My Warranties">
-                            </figure>
-                        </div>
-                        <div class="card-content">
-                            <div class="media">
-                                <div class="media-content">
-                                    <p class="title is-4">
-                                        <a href="https://trackmywarranties.mjfelix.dev" target="_blank">
-                                            Track My Warranties</a>
-                                    </p>
-                                    <p class="subtitle is-6">Track warranties on purchased items.</p>
-                                </div>
-                            </div>
-                            <div class="content">
-                                <p>
-                                    Live app:
-                                    <a href="https://trackmywarranties.mjfelix.dev" target="_blank">
-                                        trackmywarranties.mjfelix.dev</a>
-                                </p>
-                                <p>
-                                    GitHub repo:
-                                    <a href="https://github.com/mj-felix/track-my-warranties" target="_blank">
-                                        track-my-warranties</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-2by1">
+                  <img src="img/trackmyreading.jpg" alt="Track My Reading" />
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="title is-4 has-text-link">
+                      <!-- <a href="https://trackmyreading.mjfelix.dev" target="_blank">-->
+                      Track My Reading
+                      <!-- </a> -->
+                    </p>
+                    <p class="subtitle is-6">
+                      App to record reading and see stats.
+                    </p>
+                  </div>
                 </div>
-                <div class="column">
-                    <div class="card">
-                        <div class="card-image">
-                            <figure class="image is-2by1">
-                                <img src="img/trackmynotes.jpg" alt="Track My Notes">
-                            </figure>
-                        </div>
-                        <div class="card-content">
-                            <div class="media">
-                                <div class="media-content">
-                                    <p class="title is-4">
-                                        <a href="https://trackmynotes.mjfelix.dev" target="_blank">
-                                            Track My Notes</a>
-                                    </p>
-                                    <p class="subtitle is-6">Manage notes & publish them as a blog.</p>
-                                </div>
-                            </div>
-                            <div class="content">
-                                <p>
-                                    Live app:
-                                    <a href="https://trackmynotes.mjfelix.dev" target="_blank">
-                                        trackmynotes.mjfelix.dev</a>
-                                </p>
-                                <p>
-                                    GitHub repo:
-                                    <a href="https://github.com/mj-felix/track-my-notes" target="_blank">
-                                        track-my-notes</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="content">
+                  <p>
+                    Live app:
+                    <!-- <a href="https://trackmyreading.mjfelix.dev" target="_blank">-->
+                    <a
+                      class="has-tooltip-arrow"
+                      data-tooltip="Coming very soon ..."
+                      onclick=""
+                    >
+                      trackmyreading.mjfelix.dev
+                    </a>
+                  </p>
+                  <p>
+                    GitHub repo:
+                    <!-- <a href="https://github.com/mj-felix/track-my-reading" target="_blank"> -->
+                    <a
+                      class="has-tooltip-arrow"
+                      data-tooltip="Coming very soon ..."
+                      onclick=""
+                    >
+                      track-my-reading
+                    </a>
+                  </p>
                 </div>
-                <div class="column">
-                    <div class="card">
-                        <div class="card-image">
-                            <figure class="image is-2by1">
-                                <img src="img/trackmyreading.jpg" alt="Track My Reading">
-                            </figure>
-                        </div>
-                        <div class="card-content">
-                            <div class="media">
-                                <div class="media-content">
-                                    <p class="title is-4 has-text-link">
-                                        <!-- <a href="https://trackmyreading.mjfelix.dev" target="_blank">-->
-                                        Track My Reading
-                                        <!-- </a> -->
-                                    </p>
-                                    <p class="subtitle is-6">App to record reading and see stats.</p>
-                                </div>
-                            </div>
-                            <div class="content">
-                                <p>
-                                    Live app:
-                                    <!-- <a href="https://trackmyreading.mjfelix.dev" target="_blank">-->
-                                    <a class="has-tooltip-arrow" data-tooltip="Coming very soon ..." onclick="">
-                                        trackmyreading.mjfelix.dev
-                                    </a>
-                                </p>
-                                <p>
-                                    GitHub repo:
-                                    <!-- <a href="https://github.com/mj-felix/track-my-reading" target="_blank"> -->
-                                    <a class="has-tooltip-arrow" data-tooltip="Coming very soon ..." onclick="">
-                                        track-my-reading
-                                    </a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
-            <!-- 2nd row of projects -->
-            <div class="columns mb-5 is-desktop">
-                <div class="column">
-                    <div class="card">
-                        <div class="card-image">
-                            <figure class="image is-2by1">
-                                <img src="img/mjfelixdev.jpg" alt="mjfelix.dev">
-                            </figure>
-                        </div>
-                        <div class="card-content">
-                            <div class="media">
-                                <div class="media-content">
-                                    <p class="title is-4">
-                                        <a rel="#home" class="scroll">
-                                            mjfelix.dev</a>
-                                    </p>
-                                    <p class="subtitle is-6">Honestly about MJ Felix ...</p>
-                                </div>
-                            </div>
-                            <div class="content">
-                                <!-- <p>
+          </div>
+        </div>
+        <!-- 2nd row of projects -->
+        <div class="columns mb-5 is-desktop">
+          <div class="column">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-2by1">
+                  <img src="img/mjfelixdev.jpg" alt="mjfelix.dev" />
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="title is-4">
+                      <a rel="#home" class="scroll"> mjfelix.dev</a>
+                    </p>
+                    <p class="subtitle is-6">Honestly about MJ Felix ...</p>
+                  </div>
+                </div>
+                <div class="content">
+                  <!-- <p>
                                                     Live website:
                                                     <a rel="#home" class="scroll">
                                                         mjfelix.dev</a>
                                                 </p> -->
-                                <p>
-                                    GitHub repo:
-                                    <a href="https://github.com/mj-felix/mj-felix.github.io" target="_blank">
-                                        mj-felix.github.io</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                  <p>
+                    GitHub repo:
+                    <a
+                      href="https://github.com/mj-felix/mj-felix.github.io"
+                      target="_blank"
+                    >
+                      mj-felix.github.io</a
+                    >
+                  </p>
                 </div>
-                <div class="column">
-                    <div class="card">
-                        <div class="card-image">
-                            <figure class="image is-2by1">
-                                <img src="img/socialculinaryportal.jpg" alt="Social Culinary Portal">
-                            </figure>
-                        </div>
-                        <div class="card-content">
-                            <div class="media">
-                                <div class="media-content">
-                                    <p class="title is-4">
-                                        <a href="https://github.com/mj-felix/engineer-of-computer-science-final-project"
-                                            target="_blank">
-                                            Social Culinary Portal
-                                        </a>
-                                    </p>
-                                    <p class="subtitle is-6">Engineer of Comp Science - Final Project</p>
-                                </div>
-                            </div>
-                            <div class="content">
-                                <p>
-                                    GitHub repo:
-                                    <a href="https://github.com/mj-felix/engineer-of-computer-science-final-project"
-                                        target="_blank">
-                                        engineer-of-computer-science-final-project</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-2by1">
+                  <img
+                    src="img/socialculinaryportal.jpg"
+                    alt="Social Culinary Portal"
+                  />
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="title is-4">
+                      <a
+                        href="https://github.com/mj-felix/engineer-of-computer-science-final-project"
+                        target="_blank"
+                      >
+                        Social Culinary Portal
+                      </a>
+                    </p>
+                    <p class="subtitle is-6">
+                      Engineer of Comp Science - Final Project
+                    </p>
+                  </div>
                 </div>
-                <!-- <div class="column is-hidden-touch">
+                <div class="content">
+                  <p>
+                    GitHub repo:
+                    <a
+                      href="https://github.com/mj-felix/engineer-of-computer-science-final-project"
+                      target="_blank"
+                    >
+                      engineer-of-computer-science-final-project</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="column is-hidden-touch">
                                 <div class="card">
                                     <div class="card-image">
                                         <figure class="image is-2by1">
@@ -368,585 +502,681 @@
                                 </div>
             
                             </div> -->
-                <div class="column is-hidden-touch">
-                    <div class="card">
-                        <div class="card-image">
-                            <figure class="image is-2by1">
-                                <img src="img/comingnext.jpg" alt="Coming next">
-                            </figure>
-                        </div>
-                        <div class="card-content">
-                            <div class="media">
-                                <div class="media-content">
-                                    <p class="title is-4">
-                                        <a href="#">
-                                            Coming next ...</a>
-                                    </p>
-                                    <p class="subtitle is-6">Already designing my next app.</p>
-                                </div>
-                            </div>
+          <div class="column is-hidden-touch">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-2by1">
+                  <img src="img/comingnext.jpg" alt="Coming next" />
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="title is-4">
+                      <a href="#"> Coming next ...</a>
+                    </p>
+                    <p class="subtitle is-6">Already designing my next app.</p>
+                  </div>
+                </div>
 
-                            <div class="content">
-                                Watch this space ...
-                                <!-- <p>
+                <div class="content">
+                  Watch this space ...
+                  <!-- <p>
                                     Live app:
                                 </p>
                                 <p>
                                     GitHub repo:
                                 </p> -->
-                            </div>
-                        </div>
-                    </div>
                 </div>
+              </div>
             </div>
-        </section>
-        <!-- portfolio end -->
-        <div class="columns is-desktop has-text-justified">
-            <!-- values start -->
-            <div class="column pr-4">
-                <!-- values anchor for scroll /-->
-                <div class="anchor">
-                    <span id="values"></span>
-                </div>
-                <section class="section">
-                    <h1 class="title">Values</h1>
+          </div>
+        </div>
+      </section>
+      <!-- portfolio end -->
+      <div class="columns is-desktop has-text-justified">
+        <!-- values start -->
+        <div class="column pr-4">
+          <!-- values anchor for scroll /-->
+          <div class="anchor">
+            <span id="values"></span>
+          </div>
+          <section class="section">
+            <h1 class="title">Values</h1>
 
-                    <p class="py-2">
-                        Towards the end of 2020 I had an opportunity to participate in an exercise:
-                    </p>
+            <p class="py-2">
+              Towards the end of 2020 I had an opportunity to participate in an
+              exercise:
+            </p>
 
-                    <p class="is-italic py-2">
-                        Imagine it is your funeral and people give speeches - what do they say about you, do you like
-                        what they
-                        say? And then focus on the most important things/values in your life - what are those, can you
-                        rank/prioritise them?
-                    </p>
+            <p class="is-italic py-2">
+              Imagine it is your funeral and people give speeches - what do they
+              say about you, do you like what they say? And then focus on the
+              most important things/values in your life - what are those, can
+              you rank/prioritise them?
+            </p>
 
-                    <p class="py-2">
-                        This is how I came up with my list:
-                    </p>
-                    <h2 class="py-2 has-text-weight-bold is-size-5">
-                        Be truthful to yourself
-                    </h2>
-                    <p class="py-2">
-                        Stay true to who you are, what you say and what you believe in. Don’t worry about pleasing other
-                        people. Don’t live by someone else’s standards or rules. Don’t allow others to twist your arm to
-                        do something that makes you feel unhappy.
-                    </p>
-                    <h2 class="py-2 has-text-weight-bold is-size-5">
-                        Put a dent in the universe
-                    </h2>
-                    <p class="py-2">
-                        Achieve something truly great on a global scale, participate in big transformational initiatives
-                        that introduce revolutionary
-                        products
-                        and/or services benefiting the whole human race.
-                    </p>
-                    <h2 class="py-2 has-text-weight-bold is-size-5">
-                        Family
-                    </h2>
-                    <p class="py-2">
-                        Simply be an awesome dad and partner.
-                    </p>
-                    <h2 class="py-2 has-text-weight-bold is-size-5">
-                        Health
-                    </h2>
-                    <p class="py-2">
-                        Take care of your body and mind. Sleep enough, eat healthy and stay on top of any psychological
-                        issues you might be experiencing.
-                    </p>
-                    <h2 class="py-2 has-text-weight-bold is-size-5">
-                        Financial security
-                    </h2>
-                    <p class="py-2">
-                        Always know your financial situation, budget well, justify expenses.
-                    </p>
-                    <p class="pt-5">
-                        This is a prioritised list but there will be times where it will have to be
-                        temporarily
-                        reshuffled as new situations and new ethical choices arise.
-                    </p>
-                </section>
-            </div>
-            <!-- values end -->
-            <!-- journey start -->
-            <div class="column">
-                <!-- journey anchor for scroll /-->
-                <div class="anchor">
-                    <span id="journey"></span>
-                </div>
-                <section class="section has-background-white-bis p-5">
-                    <h1 class="title">Journey</h1>
-                    <p class="py-2">
-                        After experiencing a plateau for a few years and finally reaching the burnout stage in my role
-                        as a
-                        Business Analyst, I have
-                        decided to shake this off and go back to who I was a few years back - full of
-                        energy, ambitious and
-                        always pushing forward.
-                    </p>
-                    <p class="py-2">
-                        At around the same time I had gone through the <a rel="#values" class="scroll"><i>funeral
-                                exercise</i></a> so I had
-                        already identified
-                        what were
-                        the most important things in my life. In the meantime, I also read the book <a
-                            href="https://www.amazon.com/Elon-Musk-Mission-Save-World-ebook/dp/B07FMFRFYS"
-                            target="_blank"><i>Elon Musk: A
-                                Mission to Save the World</i> by
-                            Anna Crowley Redding</a> and recalled the mind-blowing <a
-                            href="https://www.youtube.com/watch?v=sr8hzF3j2fo" target="_blank">Neuralink
-                            presentation</a> (my medical vocation calling from the past?). Both have greatly
-                        inspired me - this is
-                        the goal I set for myself:
-                    </p>
-                    <p class="is-italic has-text-weight-bold py-2">
-                        In 5 years, I will work for a company that implements bold ideas that make a huge difference
-                        in
-                        people’s lives and I will
-                        contribute to these implementations … or I will set up one such company.
-                    </p>
-                    <p class="py-2">
-                        I concluded that the best chance at accomplishing my goal was to shift my career to a
-                        programmer.
-                    </p>
-                    <p class="py-2">
-                        I will need to:
-                    </p>
-                    <ul class="is-square-type ml-5 py-2">
-                        <li>improve my technical skills and gain technical experience</li>
-                        <li>find myself in a collaborative and innovative environment</li>
-                        <li>be allowed to make my own choices, execute my own learning and fail forward</li>
-                        <li>be provided not only with guidance and support but also with challenging tasks</li>
-                        <li>be allowed to explore different fields to find the area of my deeper interest</li>
-                    </ul>
-                    <p class="py-2">
-                        My immediate plan of attack:
-                    </p>
-                    <ol class="ml-5 py-2">
-                        <li><span class="is-line-through">Quit my job as a Business Analyst</span> - DONE</li>
-                        <li>Upskill through <a rel="#independent-learning" class="scroll">independent learning</a> -
-                            ONGOING</li>
-                        <li>Build <a rel="#portfolio" class="scroll">technical portfolio</a> using diversified
-                            technologies - ONGOING</li>
-                        <li><span class="is-line-through">Find a job as a Software Engineer</span> - DONE</li>
-                        <li>Figure out immediate next steps - TO DO</li>
-                    </ol>
-                    <!-- <p class="pt-5">
+            <p class="py-2">This is how I came up with my list:</p>
+            <h2 class="py-2 has-text-weight-bold is-size-5">
+              Be truthful to yourself
+            </h2>
+            <p class="py-2">
+              Stay true to who you are, what you say and what you believe in.
+              Don’t worry about pleasing other people. Don’t live by someone
+              else’s standards or rules. Don’t allow others to twist your arm to
+              do something that makes you feel unhappy.
+            </p>
+            <h2 class="py-2 has-text-weight-bold is-size-5">
+              Put a dent in the universe
+            </h2>
+            <p class="py-2">
+              Achieve something truly great on a global scale, participate in
+              big transformational initiatives that introduce revolutionary
+              products and/or services benefiting the whole human race.
+            </p>
+            <h2 class="py-2 has-text-weight-bold is-size-5">Family</h2>
+            <p class="py-2">Simply be an awesome dad and partner.</p>
+            <h2 class="py-2 has-text-weight-bold is-size-5">Health</h2>
+            <p class="py-2">
+              Take care of your body and mind. Sleep enough, eat healthy and
+              stay on top of any psychological issues you might be experiencing.
+            </p>
+            <h2 class="py-2 has-text-weight-bold is-size-5">
+              Financial security
+            </h2>
+            <p class="py-2">
+              Always know your financial situation, budget well, justify
+              expenses.
+            </p>
+            <p class="pt-5">
+              This is a prioritised list but there will be times where it will
+              have to be temporarily reshuffled as new situations and new
+              ethical choices arise.
+            </p>
+          </section>
+        </div>
+        <!-- values end -->
+        <!-- journey start -->
+        <div class="column">
+          <!-- journey anchor for scroll /-->
+          <div class="anchor">
+            <span id="journey"></span>
+          </div>
+          <section class="section has-background-white-bis p-5">
+            <h1 class="title">Journey</h1>
+            <p class="py-2">
+              After experiencing a plateau for a few years and finally reaching
+              the burnout stage in my role as a Business Analyst, I have decided
+              to shake this off and go back to who I was a few years back - full
+              of energy, ambitious and always pushing forward.
+            </p>
+            <p class="py-2">
+              At around the same time I had gone through the
+              <a rel="#values" class="scroll"><i>funeral exercise</i></a> so I
+              had already identified what were the most important things in my
+              life. In the meantime, I also read the book
+              <a
+                href="https://www.amazon.com/Elon-Musk-Mission-Save-World-ebook/dp/B07FMFRFYS"
+                target="_blank"
+                ><i>Elon Musk: A Mission to Save the World</i> by Anna Crowley
+                Redding</a
+              >
+              and recalled the mind-blowing
+              <a
+                href="https://www.youtube.com/watch?v=sr8hzF3j2fo"
+                target="_blank"
+                >Neuralink presentation</a
+              >
+              (my medical vocation calling from the past?). Both have greatly
+              inspired me - this is the goal I set for myself:
+            </p>
+            <p class="is-italic has-text-weight-bold py-2">
+              In 5 years, I will work for a company that implements bold ideas
+              that make a huge difference in people’s lives and I will
+              contribute to these implementations … or I will set up one such
+              company.
+            </p>
+            <p class="py-2">
+              I concluded that the best chance at accomplishing my goal was to
+              shift my career to a programmer.
+            </p>
+            <p class="py-2">I will need to:</p>
+            <ul class="is-square-type ml-5 py-2">
+              <li>improve my technical skills and gain technical experience</li>
+              <li>find myself in a collaborative and innovative environment</li>
+              <li>
+                be allowed to make my own choices, execute my own learning and
+                fail forward
+              </li>
+              <li>
+                be provided not only with guidance and support but also with
+                challenging tasks
+              </li>
+              <li>
+                be allowed to explore different fields to find the area of my
+                deeper interest
+              </li>
+            </ul>
+            <p class="py-2">My immediate plan of attack:</p>
+            <ol class="ml-5 py-2">
+              <li>
+                <span class="is-line-through"
+                  >Quit my job as a Business Analyst</span
+                >
+                - DONE
+              </li>
+              <li>
+                Upskill through
+                <a rel="#independent-learning" class="scroll"
+                  >independent learning</a
+                >
+                - ONGOING
+              </li>
+              <li>
+                Build
+                <a rel="#portfolio" class="scroll">technical portfolio</a> using
+                diversified technologies - ONGOING
+              </li>
+              <li>
+                <span class="is-line-through"
+                  >Find a job as a Software Engineer</span
+                >
+                - DONE
+              </li>
+              <li>Figure out immediate next steps - IN PROGRESS</li>
+            </ol>
+            <!-- <p class="pt-5">
                         Would you like to hire me? Check out <a rel="#resume" class="scroll">my resume</a> and <a
                             rel="#contact" class="scroll">contact
                             me</a>.
                     </p> -->
-                </section>
-            </div>
-            <!-- journey end -->
+          </section>
         </div>
-        <!-- resume start -->
-        <section class="section pb-5">
-            <!-- resume anchor for scroll /-->
-            <div class="anchor">
-                <span id="resume"></span>
-            </div>
-            <h1 class="title">Resume</h1>
-            <!-- <a href="docs/MJ_Szczesny_CV_21_Sep_2021.pdf" target="_blank" class="is-size-4">
+        <!-- journey end -->
+      </div>
+      <!-- resume start -->
+      <section class="section pb-5">
+        <!-- resume anchor for scroll /-->
+        <div class="anchor">
+          <span id="resume"></span>
+        </div>
+        <h1 class="title">Resume</h1>
+        <!-- <a href="docs/MJ_Szczesny_CV_21_Sep_2021.pdf" target="_blank" class="is-size-4">
                 <i class="far fa-file-pdf fa-lg"></i>
                 MJ Szczesny CV Sep 2021</a> -->
-        </section>
-        <!-- education start -->
-        <section class="section pb-1">
-            <h2 class="is-size-4 has-text-weight-bold has-text-link">Education</h2>
-        </section>
-        <section class="section mx-2">
-            <div class="columns is-8 is-variable is-desktop py-4 has-text-justified">
-                <div class="column p-5">
-                    <h3 class="has-text-weight-bold mb-3">Medicine 2003-2007</h3>
-                    <p>
-                        Yep, my parents wanted me to be a doctor. I&nbsp;had no strong preference after high school (and
-                        probably
-                        no say either). It
-                        took me 4 years to gather enough courage to tell my parents I wanted to do something else.
-                        Until
-                        the very end, I&nbsp;was
-                        one of the top students (with a scholarship for high grade average) which probably made it even
-                        harder to do what I&nbsp;needed to do. It was unbelievably hard work, sleeping 3 hours a day for
-                        the first 2 years, but
-                        it
-                        gave me a gigantic
-                        boost of self-confidence - if I could be one of the bests at something I wasn't strongly
-                        passionate about,
-                        then
-                        there is probably
-                        not a lot of things in the world that I cannot excel at. I just needed to find the thing I
-                        truly
-                        loved.
-                    </p>
-                </div>
-                <div class="column has-background-white-bis p-5">
-                    <h3 class="has-text-weight-bold mb-3">Computer Science 2007-2012</h3>
-                    <p>
-                        Sparked by a book <i>HTML4</i> by Dave Tylor in early high school. With the financial support of
-                        only
-                        my mother, I had to rely
-                        on a student loan and summer jobs in the UK. I studied online (probably the best way to study
-                        for me
-                        due to its flexibility
-                        and my self-determination) and in English (I was able to use it later to prove my English
-                        eligibility for NZ residence). It took me 5 years to graduate - with 2 majors (Databases and
-                        Business
-                        Applications Programming) and 1<sup>st</sup> class honours - as I
-                        was working at the same
-                        time. I&nbsp;loved every minute of it! I was soaking in coding, algorithms, math! The only
-                        formal studies I have actually completed ;-)
-                    </p>
-                </div>
-                <div class="column p-5">
-                    <h3 class="has-text-weight-bold mb-3">MBA 2012-2017</h3>
-                    <p>
-                        I wanted to do something more prestigious than just a regular Master's degree. I wanted to
-                        win the rat race. I was
-                        already working as a BA/PM so the direction felt right. I chose an online MBA from an accredited
-                        university in the UK. With my
-                        Polish salary, I wasn’t able to sustain the recommended pace - I could only do half of the
-                        modules at any one time. With a
-                        move to NZ and a bunch of other things on my plate and an upcoming change of curriculum, I
-                        decided
-                        to take Postgraduate Certificate only - as a consolation prize it was graduation with
-                        distinction.
-                        I did learn a lot across multiple domains. And it was awesome to see
-                        Six Sigma in action at the
-                        Jaguar factory in Birmingham!
-                    </p>
-                </div>
-            </div>
-        </section>
-        <!-- education end -->
-        <!-- work experience start -->
-        <section class="section pb-1">
-            <h2 class="is-size-4 has-text-weight-bold has-text-link">Work Experience</h2>
-        </section>
-        <section class="section mx-2">
-            <div class="columns is-multiline is-8 is-variable is-desktop py-4 has-text-justified">
-                <div class="column is-one-third-desktop has-background-white-bis p-5">
-                    <h3 class="has-text-weight-bold mb-3">Citibank 2009-2012 (3 years)</h3>
-                    <p>
-                        First professional job. Started as a front-end dev, also BA/PM tasks, later 2IC
-                        for the awesome front-end
-                        dev team. Eye-opening secondment to Singapore for Internet banking replacement project -
-                        received Instant Recognition
-                        reward for commitment and dedication. Great life lesson. Made friendships for life. Met my
-                        partner there :-)
-                    </p>
-                </div>
-                <div class="column is-one-third-desktop p-5">
-                    <h3 class="has-text-weight-bold mb-3">Alior Bank 2012-2013 (1 year)</h3>
-                    <p>
-                        Responsible for introducing mobile banking at Alior Bank, wearing different hats: from PM to BA
-                        to … writing the script
-                        for the promotional video. Felt great to see my apps climbing in AppStore and Google Play
-                        rankings - one of the
-                        greatest successes in my
-                        professional career!
-                    </p>
-                </div>
-                <div class="column is-one-third-desktop has-background-white-bis p-5">
-                    <h3 class="has-text-weight-bold mb-3">Fiserv 2013-2014 (1 year)</h3>
-                    <p>
-                        Worked as a BA on the Bank of Ireland iOS and Android apps. Did market analysis of
-                        Fiserv’s Internet and
-                        mobile banking products vs solutions on the Polish market. Finally, the most interesting of them
-                        - I supported a revenue
-                        enhancement project for one of the banks in Poland where I learnt how exactly banks earn big
-                        bucks
-                        on customers.
-                    </p>
-                </div>
-                <div class="column is-one-third-desktop p-5">
-                    <h3 class="has-text-weight-bold mb-3">Kiwibank 2014-2017 (3 years)</h3>
-                    <p>
-                        The first employer in NZ. Joined one of the coolest teams I have ever worked in (InTouch). Made
-                        great friendships. Learnt Scrum. The team was so efficient at it. This kind of spoiled it for me
-                        - no future team I
-                        worked in was able to match the same standard of Scrum. Later I trialled as a Technical Delivery
-                        Lead. Lot more
-                        pressure, longer hours, had to solve people’s problems. Apparently I was successful, but I
-                        didn’t enjoy it. Moved to another team
-                        (IT Payments) as a Tech BA. Participated in a few compliance pieces and the replacement of the
-                        core banking system. As a
-                        2IC I helped to implement Agile practices in the team. Won IT Payments hero award 3 times and
-                        was
-                        nominated for Quarterly IT award.
-                    </p>
-                </div>
-                <div class="column is-one-third-desktop has-background-white-bis p-5">
-                    <h3 class="has-text-weight-bold mb-3">Victoria University 2017-2018 (2 years)</h3>
-                    <p>
-                        My Project Manager summarised it perfectly: <i>one of a very few BAs in town that could pull it
-                            off on their
-                            own</i>.
-                        A migration project with
-                        such a broad scope. And one BA. That’s when I realised I&nbsp;loved looking at data,
-                        searching for anomalies, linking entities.
-                        Very hands-on technical analysis. Also helped developers to code behaviours in JavaScript in MS
-                        Dynamics CRM. Practised
-                        drawing process maps. Smoke tested every single change. Introduced Kanban process flow for
-                        incoming work.
-                        Toward the end, touched on CRM-Marketo (marketing automation software) integration. I
-                        thoroughly enjoyed it!
-                    </p>
-                </div>
-                <div class="column is-one-third-desktop p-5">
-                    <h3 class="has-text-weight-bold mb-3">ACC 2019-2021 (2 years)</h3>
-                    <p>
-                        <a href="https://www.tvnz.co.nz/one-news/new-zealand/quad-bike-users-cost-taxpayers-more-than-18m-in-last-year-acc-figures-show"
-                            target="_blank">Workplace Injury Prevention Subsidies</a> - an awesome initiative of making
-                        NZ a safer workplace. Worked across teams to implement the technical solution behind it.
-                        BA on the project but with responsibilities spanning outside of my core role (has become a norm
-                        over the years). Scrum Master for the
-                        CRM team. Coordinated
-                        Production releases. Taught myself Power BI to introduce reports on the performance of
-                        subsidies. Later moved to another
-                        team as a Tech BA where I experienced SAFe and learnt a few more things about integration. This
-                        is
-                        also where I did the <a rel="#values" class="scroll"><i>funeral
-                                exercise</i></a> that started the shift.
-                    </p>
-                </div>
-            </div>
-        </section>
-        <!-- work experience end -->
-        <!-- independent learning start -->
-        <section class="section pb-1">
-            <!-- resume anchor for scroll /-->
-            <div class="anchor">
-                <span id="independent-learning"></span>
-            </div>
-            <h2 class="is-size-4 has-text-weight-bold has-text-link">Independent Learning</h2>
-        </section>
-        <section class="section mb-3">
-            <div class="columns mb-4 is-desktop">
-                <div class="column">
-                    <div class="zoom">
-                        <div class="card-image">
-                            <figure class="image is-4by3">
-                                <img src="img/certs/UC-fe5cc45a-56e6-47f6-bba3-697a47f2c646.jpg" class="to-zoom"
-                                    alt="Udemy Course: Learn C# for Beginners Crash Course">
-                            </figure>
-                        </div>
-                        <div class="modal">
-                            <div class="modal-background"></div>
-                            <div class="modal-content">
-                                <p class="image is-4by3">
-                                    <a href="https://www.udemy.com/certificate/UC-fe5cc45a-56e6-47f6-bba3-697a47f2c646"
-                                        target="_blank">
-                                        <img src="img/certs/UC-fe5cc45a-56e6-47f6-bba3-697a47f2c646.jpg"
-                                            alt="Udemy Course: Learn C# for Beginners Crash Course">
-                                    </a>
-                                </p>
-                            </div>
-                            <button class="modal-close is-large" aria-label="close"></button>
-                        </div>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="zoom">
-                        <div class="card-image">
-                            <figure class="image is-4by3">
-                                <img src="img/certs/UC-ae3ae016-a382-41c4-b5f2-1ae0312c96b3.jpg" class="to-zoom"
-                                    alt="Udemy Course: Learn Java Programming Crash Course">
-                            </figure>
-                        </div>
-                        <div class="modal">
-                            <div class="modal-background"></div>
-                            <div class="modal-content">
-                                <p class="image is-4by3">
-                                    <a href="https://www.udemy.com/certificate/UC-ae3ae016-a382-41c4-b5f2-1ae0312c96b3"
-                                        target="_blank">
-                                        <img src="img/certs/UC-ae3ae016-a382-41c4-b5f2-1ae0312c96b3.jpg"
-                                            alt="Udemy Course: Learn Java Programming Crash Course">
-                                    </a>
-                                </p>
-                            </div>
-                            <button class="modal-close is-large" aria-label="close"></button>
-                        </div>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="zoom">
-                        <div class="card-image">
-                            <figure class="image is-4by3">
-                                <img src="img/certs/UC-b4484040-8b52-426d-8705-9ac6bbefb22c.jpg" class="to-zoom"
-                                    alt="Udemy Course: MERN eCommerce From Scratch">
-                            </figure>
-                        </div>
-                        <div class="modal">
-                            <div class="modal-background"></div>
-                            <div class="modal-content">
-                                <p class="image is-4by3">
-                                    <a href="https://www.udemy.com/certificate/UC-b4484040-8b52-426d-8705-9ac6bbefb22c"
-                                        target="_blank">
-                                        <img src="img/certs/UC-b4484040-8b52-426d-8705-9ac6bbefb22c.jpg"
-                                            alt="Udemy Course: MERN eCommerce From Scratch">
-                                    </a>
-                                </p>
-                            </div>
-                            <button class="modal-close is-large" aria-label="close"></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="columns mb-4 is-desktop">
-                <div class="column">
-                    <div class="zoom">
-                        <div class="card-image">
-                            <figure class="image is-4by3">
-                                <img src="img/certs/UC-5cfa6e6e-c5d6-46d7-852b-f37e9fd07005.jpg" class="to-zoom"
-                                    alt="Udemy Course: React Front To Back">
-                            </figure>
-                        </div>
-                        <div class="modal">
-                            <div class="modal-background"></div>
-                            <div class="modal-content">
-                                <p class="image is-4by3">
-                                    <a href="https://www.udemy.com/certificate/UC-5cfa6e6e-c5d6-46d7-852b-f37e9fd07005"
-                                        target="_blank">
-                                        <img src="img/certs/UC-5cfa6e6e-c5d6-46d7-852b-f37e9fd07005.jpg"
-                                            alt="Udemy Course: React Front To Back">
-                                    </a>
-                                </p>
-                            </div>
-                            <button class="modal-close is-large" aria-label="close"></button>
-                        </div>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="zoom">
-                        <div class="card-image">
-                            <figure class="image is-4by3">
-                                <img src="img/certs/UC-b8764b9d-2f8a-462b-9670-8e373016efce.jpg" class="to-zoom"
-                                    alt="Udemy Course: The Git & Github Bootcamp">
-                            </figure>
-                        </div>
-                        <div class="modal">
-                            <div class="modal-background"></div>
-                            <div class="modal-content">
-                                <p class="image is-4by3">
-                                    <a href="https://www.udemy.com/certificate/UC-b8764b9d-2f8a-462b-9670-8e373016efce"
-                                        target="_blank">
-                                        <img src="img/certs/UC-b8764b9d-2f8a-462b-9670-8e373016efce.jpg"
-                                            alt="Udemy Course: The Git & Github Bootcamp">
-                                    </a>
-                                </p>
-                            </div>
-                            <button class="modal-close is-large" aria-label="close"></button>
-                        </div>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="zoom">
-                        <div class="card-image">
-                            <figure class="image is-4by3">
-                                <img src="img/certs/UC-446cbc0c-cf2f-43f1-a917-bb9e87af7ec3.jpg" class="to-zoom"
-                                    alt="Udemy Course: The Web Developer Bootcamp 2021">
-                            </figure>
-                        </div>
-                        <div class="modal">
-                            <div class="modal-background"></div>
-                            <div class="modal-content">
-                                <p class="image is-4by3">
-                                    <a href="https://www.udemy.com/certificate/UC-446cbc0c-cf2f-43f1-a917-bb9e87af7ec3"
-                                        target="_blank">
-                                        <img src="img/certs/UC-446cbc0c-cf2f-43f1-a917-bb9e87af7ec3.jpg"
-                                            alt="Udemy Course: The Web Developer Bootcamp 2021">
-                                    </a>
-                                </p>
-                            </div>
-                            <button class="modal-close is-large" aria-label="close"></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- independent learning end -->
-        <!-- resume end -->
-        <div class="columns">
-            <!-- contact start -->
-            <div class="column">
-                <!-- interests anchor for scroll /-->
-                <div class="anchor">
-                    <span id="interests"></span>
-                </div>
-                <section class="section">
-                    <h1 class="title">Interests</h1>
-                    <ul class="is-size-4">
-                        <li>
-                            <i class="fab fa-gratipay"></i>
-                            Contract Bridge
-                        </li>
-                        <li>
-                            <i class="fas fa-clock"></i>
-                            Horology
-                        </li>
-                        <li>
-                            <i class="fas fa-futbol"></i>
-                            Football
-                        </li>
-                    </ul>
-                </section>
-            </div>
-            <!-- interests end -->
-            <!-- contact start -->
-            <div class="column">
-                <!-- contact anchor for scroll /-->
-                <div class="anchor">
-                    <span id="contact"></span>
-                </div>
-                <section class="section">
-                    <h1 class="title">Contact</h1>
-                    <ul class="is-size-4">
-                        <li>
-                            <a href="mailto:mjfelixdev@gmail.com">
-                                <i class="fas fa-envelope-square"></i>
-                                mjfelixdev@gmail.com</a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/mjfelix" target="_blank">
-                                <i class="fab fa-linkedin"></i>
-                                linkedin.com/in/mjfelix</a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/mj-felix" target="_blank">
-                                <i class="fab fa-github-square"></i>
-                                github.com/mj-felix</a>
-                        </li>
-                    </ul>
-                </section>
-            </div>
-            <!-- contact end -->
-            <!-- support start -->
-            <div class="column">
-                <!-- support anchor for scroll /-->
-                <div class="anchor">
-                    <span id="support"></span>
-                </div>
-                <section class="section">
-                    <h1 class="title">Support</h1>
-                    <p class="is-size-5 mb-5">If you like what you see:</p>
-                    <p>
-                        <a href="https://www.buymeacoffee.com/mjfelix" class="button is-outlined is-medium is-link"
-                            target="_blank">Shout me
-                            a &#127866;</a>
-                    </p>
-                </section>
-            </div>
-            <!-- support end -->
+      </section>
+      <!-- education start -->
+      <section class="section pb-1">
+        <h2 class="is-size-4 has-text-weight-bold has-text-link">Education</h2>
+      </section>
+      <section class="section mx-2">
+        <div
+          class="columns is-8 is-variable is-desktop py-4 has-text-justified"
+        >
+          <div class="column p-5">
+            <h3 class="has-text-weight-bold mb-3">Medicine 2003-2007</h3>
+            <p>
+              Yep, my parents wanted me to be a doctor. I&nbsp;had no strong
+              preference after high school (and probably no say either). It took
+              me 4 years to gather enough courage to tell my parents I wanted to
+              do something else. Until the very end, I&nbsp;was one of the top
+              students (with a scholarship for high grade average) which
+              probably made it even harder to do what I&nbsp;needed to do. It
+              was unbelievably hard work, sleeping 3 hours a day for the first 2
+              years, but it gave me a gigantic boost of self-confidence - if I
+              could be one of the bests at something I wasn't strongly
+              passionate about, then there is probably not a lot of things in
+              the world that I cannot excel at. I just needed to find the thing
+              I truly loved.
+            </p>
+          </div>
+          <div class="column has-background-white-bis p-5">
+            <h3 class="has-text-weight-bold mb-3">
+              Computer Science 2007-2012
+            </h3>
+            <p>
+              Sparked by a book <i>HTML4</i> by Dave Tylor in early high school.
+              With the financial support of only my mother, I had to rely on a
+              student loan and summer jobs in the UK. I studied online (probably
+              the best way to study for me due to its flexibility and my
+              self-determination) and in English (I was able to use it later to
+              prove my English eligibility for NZ residence). It took me 5 years
+              to graduate - with 2 majors (Databases and Business Applications
+              Programming) and 1<sup>st</sup> class honours - as I was working
+              at the same time. I&nbsp;loved every minute of it! I was soaking
+              in coding, algorithms, math! The only formal studies I have
+              actually completed ;-)
+            </p>
+          </div>
+          <div class="column p-5">
+            <h3 class="has-text-weight-bold mb-3">MBA 2012-2017</h3>
+            <p>
+              I wanted to do something more prestigious than just a regular
+              Master's degree. I wanted to win the rat race. I was already
+              working as a BA/PM so the direction felt right. I chose an online
+              MBA from an accredited university in the UK. With my Polish
+              salary, I wasn’t able to sustain the recommended pace - I could
+              only do half of the modules at any one time. With a move to NZ and
+              a bunch of other things on my plate and an upcoming change of
+              curriculum, I decided to take Postgraduate Certificate only - as a
+              consolation prize it was graduation with distinction. I did learn
+              a lot across multiple domains. And it was awesome to see Six Sigma
+              in action at the Jaguar factory in Birmingham!
+            </p>
+          </div>
         </div>
+      </section>
+      <!-- education end -->
+      <!-- work experience start -->
+      <section class="section pb-1">
+        <h2 class="is-size-4 has-text-weight-bold has-text-link">
+          Work Experience
+        </h2>
+      </section>
+      <section class="section mx-2">
+        <div
+          class="
+            columns
+            is-multiline is-8 is-variable is-desktop
+            py-4
+            has-text-justified
+          "
+        >
+          <div class="column is-one-third-desktop has-background-white-bis p-5">
+            <h3 class="has-text-weight-bold mb-3">
+              Citibank 2009-2012 (3 years)
+            </h3>
+            <p>
+              First professional job. Started as a front-end dev, also BA/PM
+              tasks, later 2IC for the awesome front-end dev team. Eye-opening
+              secondment to Singapore for Internet banking replacement project -
+              received Instant Recognition reward for commitment and dedication.
+              Great life lesson. Made friendships for life. Met my partner there
+              :-)
+            </p>
+          </div>
+          <div class="column is-one-third-desktop p-5">
+            <h3 class="has-text-weight-bold mb-3">
+              Alior Bank 2012-2013 (1 year)
+            </h3>
+            <p>
+              Responsible for introducing mobile banking at Alior Bank, wearing
+              different hats: from PM to BA to … writing the script for the
+              promotional video. Felt great to see my apps climbing in AppStore
+              and Google Play rankings - one of the greatest successes in my
+              professional career!
+            </p>
+          </div>
+          <div class="column is-one-third-desktop has-background-white-bis p-5">
+            <h3 class="has-text-weight-bold mb-3">Fiserv 2013-2014 (1 year)</h3>
+            <p>
+              Worked as a BA on the Bank of Ireland iOS and Android apps. Did
+              market analysis of Fiserv’s Internet and mobile banking products
+              vs solutions on the Polish market. Finally, the most interesting
+              of them - I supported a revenue enhancement project for one of the
+              banks in Poland where I learnt how exactly banks earn big bucks on
+              customers.
+            </p>
+          </div>
+          <div class="column is-one-third-desktop p-5">
+            <h3 class="has-text-weight-bold mb-3">
+              Kiwibank 2014-2017 (3 years)
+            </h3>
+            <p>
+              The first employer in NZ. Joined one of the coolest teams I have
+              ever worked in (InTouch). Made great friendships. Learnt Scrum.
+              The team was so efficient at it. This kind of spoiled it for me -
+              no future team I worked in was able to match the same standard of
+              Scrum. Later I trialled as a Technical Delivery Lead. Lot more
+              pressure, longer hours, had to solve people’s problems. Apparently
+              I was successful, but I didn’t enjoy it. Moved to another team (IT
+              Payments) as a Tech BA. Participated in a few compliance pieces
+              and the replacement of the core banking system. As a 2IC I helped
+              to implement Agile practices in the team. Won IT Payments hero
+              award 3 times and was nominated for Quarterly IT award.
+            </p>
+          </div>
+          <div class="column is-one-third-desktop has-background-white-bis p-5">
+            <h3 class="has-text-weight-bold mb-3">
+              Victoria University 2017-2018 (2 years)
+            </h3>
+            <p>
+              My Project Manager summarised it perfectly:
+              <i
+                >one of a very few BAs in town that could pull it off on their
+                own</i
+              >. A migration project with such a broad scope. And one BA. That’s
+              when I realised I&nbsp;loved looking at data, searching for
+              anomalies, linking entities. Very hands-on technical analysis.
+              Also helped developers to code behaviours in JavaScript in MS
+              Dynamics CRM. Practised drawing process maps. Smoke tested every
+              single change. Introduced Kanban process flow for incoming work.
+              Toward the end, touched on CRM-Marketo (marketing automation
+              software) integration. I thoroughly enjoyed it!
+            </p>
+          </div>
+          <div class="column is-one-third-desktop p-5">
+            <h3 class="has-text-weight-bold mb-3">ACC 2019-2021 (2 years)</h3>
+            <p>
+              <a
+                href="https://www.tvnz.co.nz/one-news/new-zealand/quad-bike-users-cost-taxpayers-more-than-18m-in-last-year-acc-figures-show"
+                target="_blank"
+                >Workplace Injury Prevention Subsidies</a
+              >
+              - an awesome initiative of making NZ a safer workplace. Worked
+              across teams to implement the technical solution behind it. BA on
+              the project but with responsibilities spanning outside of my core
+              role (has become a norm over the years). Scrum Master for the CRM
+              team. Coordinated Production releases. Taught myself Power BI to
+              introduce reports on the performance of subsidies. Later moved to
+              another team as a Tech BA where I experienced SAFe and learnt a
+              few more things about integration. This is also where I did the
+              <a rel="#values" class="scroll"><i>funeral exercise</i></a> that
+              started the shift.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- work experience end -->
+      <!-- independent learning start -->
+      <section class="section pb-1">
+        <!-- resume anchor for scroll /-->
+        <div class="anchor">
+          <span id="independent-learning"></span>
+        </div>
+        <h2 class="is-size-4 has-text-weight-bold has-text-link">
+          Independent Learning
+        </h2>
+      </section>
+      <section class="section mb-3">
+        <div class="columns mb-4 is-desktop">
+          <div class="column">
+            <div class="zoom">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img
+                    src="img/certs/UC-fe5cc45a-56e6-47f6-bba3-697a47f2c646.jpg"
+                    class="to-zoom"
+                    alt="Udemy Course: Learn C# for Beginners Crash Course"
+                  />
+                </figure>
+              </div>
+              <div class="modal">
+                <div class="modal-background"></div>
+                <div class="modal-content">
+                  <p class="image is-4by3">
+                    <a
+                      href="https://www.udemy.com/certificate/UC-fe5cc45a-56e6-47f6-bba3-697a47f2c646"
+                      target="_blank"
+                    >
+                      <img
+                        src="img/certs/UC-fe5cc45a-56e6-47f6-bba3-697a47f2c646.jpg"
+                        alt="Udemy Course: Learn C# for Beginners Crash Course"
+                      />
+                    </a>
+                  </p>
+                </div>
+                <button
+                  class="modal-close is-large"
+                  aria-label="close"
+                ></button>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="zoom">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img
+                    src="img/certs/UC-ae3ae016-a382-41c4-b5f2-1ae0312c96b3.jpg"
+                    class="to-zoom"
+                    alt="Udemy Course: Learn Java Programming Crash Course"
+                  />
+                </figure>
+              </div>
+              <div class="modal">
+                <div class="modal-background"></div>
+                <div class="modal-content">
+                  <p class="image is-4by3">
+                    <a
+                      href="https://www.udemy.com/certificate/UC-ae3ae016-a382-41c4-b5f2-1ae0312c96b3"
+                      target="_blank"
+                    >
+                      <img
+                        src="img/certs/UC-ae3ae016-a382-41c4-b5f2-1ae0312c96b3.jpg"
+                        alt="Udemy Course: Learn Java Programming Crash Course"
+                      />
+                    </a>
+                  </p>
+                </div>
+                <button
+                  class="modal-close is-large"
+                  aria-label="close"
+                ></button>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="zoom">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img
+                    src="img/certs/UC-b4484040-8b52-426d-8705-9ac6bbefb22c.jpg"
+                    class="to-zoom"
+                    alt="Udemy Course: MERN eCommerce From Scratch"
+                  />
+                </figure>
+              </div>
+              <div class="modal">
+                <div class="modal-background"></div>
+                <div class="modal-content">
+                  <p class="image is-4by3">
+                    <a
+                      href="https://www.udemy.com/certificate/UC-b4484040-8b52-426d-8705-9ac6bbefb22c"
+                      target="_blank"
+                    >
+                      <img
+                        src="img/certs/UC-b4484040-8b52-426d-8705-9ac6bbefb22c.jpg"
+                        alt="Udemy Course: MERN eCommerce From Scratch"
+                      />
+                    </a>
+                  </p>
+                </div>
+                <button
+                  class="modal-close is-large"
+                  aria-label="close"
+                ></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="columns mb-4 is-desktop">
+          <div class="column">
+            <div class="zoom">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img
+                    src="img/certs/UC-5cfa6e6e-c5d6-46d7-852b-f37e9fd07005.jpg"
+                    class="to-zoom"
+                    alt="Udemy Course: React Front To Back"
+                  />
+                </figure>
+              </div>
+              <div class="modal">
+                <div class="modal-background"></div>
+                <div class="modal-content">
+                  <p class="image is-4by3">
+                    <a
+                      href="https://www.udemy.com/certificate/UC-5cfa6e6e-c5d6-46d7-852b-f37e9fd07005"
+                      target="_blank"
+                    >
+                      <img
+                        src="img/certs/UC-5cfa6e6e-c5d6-46d7-852b-f37e9fd07005.jpg"
+                        alt="Udemy Course: React Front To Back"
+                      />
+                    </a>
+                  </p>
+                </div>
+                <button
+                  class="modal-close is-large"
+                  aria-label="close"
+                ></button>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="zoom">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img
+                    src="img/certs/UC-b8764b9d-2f8a-462b-9670-8e373016efce.jpg"
+                    class="to-zoom"
+                    alt="Udemy Course: The Git & Github Bootcamp"
+                  />
+                </figure>
+              </div>
+              <div class="modal">
+                <div class="modal-background"></div>
+                <div class="modal-content">
+                  <p class="image is-4by3">
+                    <a
+                      href="https://www.udemy.com/certificate/UC-b8764b9d-2f8a-462b-9670-8e373016efce"
+                      target="_blank"
+                    >
+                      <img
+                        src="img/certs/UC-b8764b9d-2f8a-462b-9670-8e373016efce.jpg"
+                        alt="Udemy Course: The Git & Github Bootcamp"
+                      />
+                    </a>
+                  </p>
+                </div>
+                <button
+                  class="modal-close is-large"
+                  aria-label="close"
+                ></button>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="zoom">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img
+                    src="img/certs/UC-446cbc0c-cf2f-43f1-a917-bb9e87af7ec3.jpg"
+                    class="to-zoom"
+                    alt="Udemy Course: The Web Developer Bootcamp 2021"
+                  />
+                </figure>
+              </div>
+              <div class="modal">
+                <div class="modal-background"></div>
+                <div class="modal-content">
+                  <p class="image is-4by3">
+                    <a
+                      href="https://www.udemy.com/certificate/UC-446cbc0c-cf2f-43f1-a917-bb9e87af7ec3"
+                      target="_blank"
+                    >
+                      <img
+                        src="img/certs/UC-446cbc0c-cf2f-43f1-a917-bb9e87af7ec3.jpg"
+                        alt="Udemy Course: The Web Developer Bootcamp 2021"
+                      />
+                    </a>
+                  </p>
+                </div>
+                <button
+                  class="modal-close is-large"
+                  aria-label="close"
+                ></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- independent learning end -->
+      <!-- resume end -->
+      <div class="columns">
+        <!-- contact start -->
+        <div class="column">
+          <!-- interests anchor for scroll /-->
+          <div class="anchor">
+            <span id="interests"></span>
+          </div>
+          <section class="section">
+            <h1 class="title">Interests</h1>
+            <ul class="is-size-4">
+              <li>
+                <i class="fab fa-gratipay"></i>
+                Contract Bridge
+              </li>
+              <li>
+                <i class="fas fa-clock"></i>
+                Horology
+              </li>
+              <li>
+                <i class="fas fa-futbol"></i>
+                Football
+              </li>
+            </ul>
+          </section>
+        </div>
+        <!-- interests end -->
+        <!-- contact start -->
+        <div class="column">
+          <!-- contact anchor for scroll /-->
+          <div class="anchor">
+            <span id="contact"></span>
+          </div>
+          <section class="section">
+            <h1 class="title">Contact</h1>
+            <ul class="is-size-4">
+              <li>
+                <a href="mailto:mjfelixdev@gmail.com">
+                  <i class="fas fa-envelope-square"></i>
+                  mjfelixdev@gmail.com</a
+                >
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/mjfelix" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                  linkedin.com/in/mjfelix</a
+                >
+              </li>
+              <li>
+                <a href="https://github.com/mj-felix" target="_blank">
+                  <i class="fab fa-github-square"></i>
+                  github.com/mj-felix</a
+                >
+              </li>
+            </ul>
+          </section>
+        </div>
+        <!-- contact end -->
+        <!-- support start -->
+        <div class="column">
+          <!-- support anchor for scroll /-->
+          <div class="anchor">
+            <span id="support"></span>
+          </div>
+          <section class="section">
+            <h1 class="title">Support</h1>
+            <p class="is-size-5 mb-5">If you like what you see:</p>
+            <p>
+              <a
+                href="https://www.buymeacoffee.com/mjfelix"
+                class="button is-outlined is-medium is-link"
+                target="_blank"
+                >Shout me a &#127866;</a
+              >
+            </p>
+          </section>
+        </div>
+        <!-- support end -->
+      </div>
     </main>
     <!-- main end -->
     <!-- footer start -->
     <footer class="footer mt-6">
-        <div class="content has-text-centered">
-            &copy; 2021 MJ Felix
-        </div>
+      <div class="content has-text-centered">&copy; 2021 MJ Felix</div>
     </footer>
     <!-- fotter end -->
     <!-- Slider js /-->
@@ -955,6 +1185,5 @@
     <script src="js/app.js"></script>
     <!-- after load js /-->
     <script src="js/afterLoad.js"></script>
-</body>
-
+  </body>
 </html>
