@@ -1,6 +1,6 @@
 # Honestly about MJ Felix ...
 
-![Honestly about MJ Felix ...](https://mjfelix.dev/img/screenshot.png)
+![Honestly about MJ Felix ...](./img/screenshot.png)
 
 ## Description
 
